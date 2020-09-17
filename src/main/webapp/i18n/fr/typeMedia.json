@@ -1,0 +1,22 @@
+{
+  "kaloloApp": {
+    "typeMedia": {
+      "home": {
+        "title": "TypeMedias",
+        "createLabel": "Créer un nouveau Type Media",
+        "createOrEditLabel": "Créer ou éditer un Type Media",
+        "notFound": "Aucun Type Media trouvé"
+      },
+      "created": "Un nouveau Type Media a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Type Media avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Type Media avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Type Media {{ id }} ?"
+      },
+      "detail": {
+        "title": "Type Media"
+      },
+      "libelle": "Libelle"
+    }
+  }
+}

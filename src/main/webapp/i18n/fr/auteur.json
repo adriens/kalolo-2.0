@@ -1,0 +1,28 @@
+{
+  "kaloloApp": {
+    "auteur": {
+      "home": {
+        "title": "Auteurs",
+        "createLabel": "Créer un nouveau Auteur",
+        "createOrEditLabel": "Créer ou éditer un Auteur",
+        "notFound": "Aucun Auteur trouvé"
+      },
+      "created": "Un nouveau Auteur a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Auteur avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Auteur avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Auteur {{ id }} ?"
+      },
+      "detail": {
+        "title": "Auteur"
+      },
+      "nom": "Nom",
+      "cleAuteur": "Cle Auteur",
+      "urlWeb": "Url Web",
+      "urlFb": "Url Fb",
+      "urlInsta": "Url Insta",
+      "urlYt": "Url Yt",
+      "urlTwit": "Url Twit"
+    }
+  }
+}

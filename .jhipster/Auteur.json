@@ -1,0 +1,45 @@
+{
+  "name": "Auteur",
+  "fields": [
+    {
+      "fieldName": "nom",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cleAuteur",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "urlWeb",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "urlFb",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "urlInsta",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "urlYt",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "urlTwit",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20200917232546",
+  "entityTableName": "auteur",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "no",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["kalolo"]
+}

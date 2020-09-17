@@ -1,0 +1,66 @@
+application {
+  config {
+    baseName kalolo
+    applicationType monolith
+    serverPort 8080
+    authenticationType oauth2
+    packageName	com.github.meilie389.kalolo
+    testFrameworks [protractor, gatling]
+    clientTheme lux
+    nativeLanguage fr
+    languages [fr]
+    databaseType sql
+  }
+  entities *
+}
+
+entity Auteur {
+	id Integer,
+    nom String,
+    cleAuteur String,
+    urlWeb String,
+    urlFb String,
+    urlInsta String,
+    urlYt String,
+    urlTwit String
+}
+
+entity Expression {
+	id Integer,
+    text String,
+    points Integer
+}
+
+entity Media {
+	id Integer,
+	url String,
+	date Instant,
+	titre String,
+    description String,
+    keywords String
+}
+
+entity Tag {
+	id Integer,
+    libelle String,
+    definition String
+}
+
+entity TypeMedia {
+	id Integer,
+	libelle String
+}
+
+relationship ManyToMany {
+	Expression{tags(id)} to Tag{exps}
+}
+
+relationship ManyToOne {
+	Media{auteur} to Auteur
+}
+
+relationship ManyToOne {
+	Media{type} to TypeMedia
+}
+
+paginate Auteur, Expression, Media, Tag, TypeMedia with pagination

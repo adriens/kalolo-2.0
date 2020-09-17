@@ -1,0 +1,28 @@
+{
+  "kaloloApp": {
+    "media": {
+      "home": {
+        "title": "Media",
+        "createLabel": "Créer un nouveau Media",
+        "createOrEditLabel": "Créer ou éditer un Media",
+        "notFound": "Aucun Media trouvé"
+      },
+      "created": "Un nouveau Media a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Media avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Media avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Etes-vous certain de vouloir supprimer le Media {{ id }} ?"
+      },
+      "detail": {
+        "title": "Media"
+      },
+      "url": "Url",
+      "date": "Date",
+      "titre": "Titre",
+      "description": "Description",
+      "keywords": "Keywords",
+      "auteur": "Auteur",
+      "type": "Type"
+    }
+  }
+}

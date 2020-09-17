@@ -1,0 +1,68 @@
+<div class="row justify-content-center">
+    <div class="col-8">
+        <form name="editForm" role="form" novalidate (ngSubmit)="save()" [formGroup]="editForm">
+            <h2 id="jhi-auteur-heading" jhiTranslate="kaloloApp.auteur.home.createOrEditLabel">Create or edit a Auteur</h2>
+
+            <div>
+                <jhi-alert-error></jhi-alert-error>
+
+                <div class="form-group" [hidden]="!editForm.get('id')!.value">
+                    <label for="id" jhiTranslate="global.field.id">ID</label>
+                    <input type="text" class="form-control" id="id" name="id" formControlName="id" readonly />
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="kaloloApp.auteur.nom" for="field_nom">Nom</label>
+                    <input type="text" class="form-control" name="nom" id="field_nom"
+                           formControlName="nom"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="kaloloApp.auteur.cleAuteur" for="field_cleAuteur">Cle Auteur</label>
+                    <input type="text" class="form-control" name="cleAuteur" id="field_cleAuteur"
+                           formControlName="cleAuteur"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="kaloloApp.auteur.urlWeb" for="field_urlWeb">Url Web</label>
+                    <input type="text" class="form-control" name="urlWeb" id="field_urlWeb"
+                           formControlName="urlWeb"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="kaloloApp.auteur.urlFb" for="field_urlFb">Url Fb</label>
+                    <input type="text" class="form-control" name="urlFb" id="field_urlFb"
+                           formControlName="urlFb"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="kaloloApp.auteur.urlInsta" for="field_urlInsta">Url Insta</label>
+                    <input type="text" class="form-control" name="urlInsta" id="field_urlInsta"
+                           formControlName="urlInsta"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="kaloloApp.auteur.urlYt" for="field_urlYt">Url Yt</label>
+                    <input type="text" class="form-control" name="urlYt" id="field_urlYt"
+                           formControlName="urlYt"/>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-control-label" jhiTranslate="kaloloApp.auteur.urlTwit" for="field_urlTwit">Url Twit</label>
+                    <input type="text" class="form-control" name="urlTwit" id="field_urlTwit"
+                           formControlName="urlTwit"/>
+                </div>
+            </div>
+
+            <div>
+                <button type="button" id="cancel-save" class="btn btn-secondary" (click)="previousState()">
+                    <fa-icon icon="ban"></fa-icon>&nbsp;<span jhiTranslate="entity.action.cancel">Cancel</span>
+                </button>
+
+                <button type="submit" id="save-entity" [disabled]="editForm.invalid || isSaving" class="btn btn-primary">
+                    <fa-icon icon="save"></fa-icon>&nbsp;<span jhiTranslate="entity.action.save">Save</span>
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

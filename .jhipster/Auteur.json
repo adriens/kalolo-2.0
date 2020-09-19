@@ -41,5 +41,5 @@
   "readOnly": false,
   "embedded": false,
   "clientRootFolder": "",
-  "applications": ["kalolo"]
+  "applications": "*"
 }

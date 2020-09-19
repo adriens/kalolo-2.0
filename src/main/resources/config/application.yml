@@ -112,6 +112,7 @@ spring:
     ansi:
       console-available: true
   security:
+    # KEYCLOAK
     oauth2:
       client:
         provider:

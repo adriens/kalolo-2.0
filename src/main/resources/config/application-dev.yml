@@ -37,9 +37,9 @@ spring:
       indent-output: true
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    url: jdbc:h2:file:./target/h2db/db/kalolo;DB_CLOSE_DELAY=-1
-    username: kalolo
-    password:
+    url: jdbc:mysql://localhost:3306/kalolo?useUnicode=true&characterEncoding=utf8&allowPublicKeyRetrieval=true&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
+    username: meilie
+    password: password
     hikari:
       poolName: Hikari
       auto-commit: false

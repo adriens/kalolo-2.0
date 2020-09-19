@@ -1,0 +1,50 @@
+#badgeDiv {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+}
+
+#contentDiv {
+  background-color: rgba(160, 160, 160, 0.2);
+  padding: 20px;
+}
+
+.badge {
+  height: 45px;
+  letter-spacing: 2px;
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.badge:hover {
+  background-color: #2e9ce5;
+  box-shadow: 0px 15px 20px rgba(10, 20, 41, 0.932);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.search-icon {
+  padding-top: 8px;
+  padding-left: 4px;
+  padding-right: 9px;
+}
+
+#filter-style {
+  display: flex;
+  padding-top: 5px;
+}

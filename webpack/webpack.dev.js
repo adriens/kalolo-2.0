@@ -70,6 +70,10 @@ module.exports = (options) => webpackMerge(commonConfig({ env: ENV }), {
                 loader: 'sass-loader',
                 options: { implementation: sass }
             }]
+        },
+        {
+            test: /\.css$/,
+            use: [ 'style-loader', 'css-loader' ]
         }]
     },
     stats: process.env.JHI_DISABLE_WEBPACK_LOGS ? 'none' : options.stats,

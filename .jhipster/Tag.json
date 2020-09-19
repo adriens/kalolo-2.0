@@ -23,12 +23,12 @@
   "changelogDate": "20200917232846",
   "entityTableName": "tag",
   "dto": "no",
-  "pagination": "pagination",
+  "pagination": "no",
   "service": "no",
   "jpaMetamodelFiltering": false,
   "fluentMethods": true,
   "readOnly": false,
   "embedded": false,
   "clientRootFolder": "",
-  "applications": ["kalolo"]
+  "applications": "*"
 }

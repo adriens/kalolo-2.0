@@ -40,7 +40,6 @@ export const tagRoute: Routes = [
     component: TagComponent,
     data: {
       authorities: [Authority.USER],
-      defaultSort: 'id,asc',
       pageTitle: 'kaloloApp.tag.home.title',
     },
     canActivate: [UserRouteAccessService],

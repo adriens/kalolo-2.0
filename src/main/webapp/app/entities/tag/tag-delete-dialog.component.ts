@@ -17,10 +17,15 @@ export class TagDeleteDialogComponent {
     this.activeModal.dismiss();
   }
 
+  previousState(): void {
+    window.history.back();
+  }
+
   confirmDelete(id: number): void {
     this.tagService.delete(id).subscribe(() => {
       this.eventManager.broadcast('tagListModification');
       this.activeModal.close();
     });
+    this.previousState();
   }
 }

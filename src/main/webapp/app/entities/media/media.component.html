@@ -10,8 +10,6 @@
         </button>
     </h2>
 
-    <br><hr>
-
     <jhi-alert-error></jhi-alert-error>
 
     <jhi-alert></jhi-alert>
@@ -20,58 +18,74 @@
         <span jhiTranslate="kaloloApp.media.home.notFound">No media found</span>
     </div>
 
-    <br>
+    <div class="table-responsive" id="entities" *ngIf="media && media.length > 0">
+        <table class="table table-striped" aria-describedby="page-heading">
+            <thead>
+                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
+                    <th scope="col"  jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="url"><span jhiTranslate="kaloloApp.media.url">Url</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="date"><span jhiTranslate="kaloloApp.media.date">Date</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="titre"><span jhiTranslate="kaloloApp.media.titre">Titre</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="description"><span jhiTranslate="kaloloApp.media.description">Description</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="keywords"><span jhiTranslate="kaloloApp.media.keywords">Keywords</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="auteur.id"><span jhiTranslate="kaloloApp.media.auteur">Auteur</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"  jhiSortBy="type.id"><span jhiTranslate="kaloloApp.media.type">Type</span> <fa-icon icon="sort"></fa-icon></th>
+                    <th scope="col"></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let media of media ;trackBy: trackId">
+                    <td><a [routerLink]="['/media', media.id, 'view']">{{ media.id }}</a></td>
+                    <td>{{ media.url }}</td>
+                    <td>{{ media.date | date:'medium' }}</td>
+                    <td>{{ media.titre }}</td>
+                    <td>{{ media.description }}</td>
+                    <td>{{ media.keywords }}</td>
+                    <td>
+                        <div *ngIf="media.auteur">
+                            <a [routerLink]="['/auteur', media.auteur?.id, 'view']" >{{ media.auteur?.id }}</a>
+                        </div>
+                    </td>
+                    <td>
+                        <div *ngIf="media.type">
+                            <a [routerLink]="['/type-media', media.type?.id, 'view']" >{{ media.type?.id }}</a>
+                        </div>
+                    </td>
+                    <td class="text-right">
+                        <div class="btn-group">
+                            <button type="submit"
+                                    [routerLink]="['/media', media.id, 'view']"
+                                    class="btn btn-info btn-sm">
+                                <fa-icon icon="eye"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                            </button>
 
-    <ngb-accordion #acc="ngbAccordion" *ngIf="media && media.length > 0">
-        <ngb-panel id="{{ 'media-' + i }}" title="First panel" *ngFor="let m of media; let i = index">
-            <ng-template ngbPanelHeader>
-                <div class="d-flex align-items-center justify-content-between">
-                    <div class="d-flex">
-                        <h5 class="m-0"> {{ m.auteur.nom ? '' : m.auteur.nom }} - {{ m.titre }} </h5>
-                        <p class="ml-2" *ngIf="m.type.libelle != ''">({{ m.type.libelle }})</p>
-                    </div>
-                    <div class="btn-group">
-                        <button ngbPanelToggle class="btn btn-info btn-sm">
-                            <fa-icon icon="eye"></fa-icon>
-                            <span class="d-none d-md-inline"></span>
-                        </button>
+                            <button type="submit"
+                                    [routerLink]="['/media', media.id, 'edit']"
+                                    class="btn btn-primary btn-sm">
+                                <fa-icon icon="pencil-alt"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                            </button>
 
-                        <button type="submit"
-                                [routerLink]="['/m', m.id, 'edit']"
-                                class="btn btn-primary btn-sm ml-2">
-                            <fa-icon icon="pencil-alt"></fa-icon>
-                            <span class="d-none d-md-inline"></span>
-                        </button>
+                            <button type="submit" (click)="delete(media)"
+                                    class="btn btn-danger btn-sm">
+                                <fa-icon icon="times"></fa-icon>
+                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
 
-                        <button type="submit" (click)="delete(m)"
-                                class="btn btn-danger btn-sm ml-2">
-                            <fa-icon icon="times"></fa-icon>
-                            <span class="d-none d-md-inline"></span>
-                        </button>
-                    </div>
-                </div>
-            </ng-template>
-            <ng-template ngbPanelContent>
-                <table class="table" aria-describedby="page-heading">
-                    <tr *ngIf="m.url">
-                        <th scope="col" ><span jhiTranslate="kaloloApp.media.url">Url</span></th>
-                        <td><a href="{{ m.url }}">{{ m.url }}</a></td>
-                    </tr>
-                    <tr *ngIf="m.date">
-                        <th scope="col" ><span jhiTranslate="kaloloApp.media.date">Date</span></th>
-                        <td>{{ m.date }}</td>
-                    </tr>
-                    <tr *ngIf="m.description">
-                        <th scope="col" ><span jhiTranslate="kaloloApp.media.description">Description</span></th>
-                        <td>{{ m.description }}</td>
-                    </tr>
-                    <tr *ngIf="m.keywords">
-                        <th scope="col" ><span jhiTranslate="kaloloApp.media.keywords">Keywords</span></th>
-                        <td>{{ m.keywords }}</td>
-                    </tr>
-                </table>
-            </ng-template>
-        </ngb-panel>
-    </ngb-accordion>
+    <div *ngIf="media && media.length > 0">
+        <div class="row justify-content-center">
+            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
+        </div>
 
+        <div class="row justify-content-center">
+            <ngb-pagination [collectionSize]="totalItems" [(page)]="ngbPaginationPage" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage($event)"></ngb-pagination>
+        </div>
+    </div>
 </div>

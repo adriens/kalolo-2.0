@@ -34,7 +34,7 @@
   "changelogDate": "20200917232546",
   "entityTableName": "auteur",
   "dto": "no",
-  "pagination": "pagination",
+  "pagination": "no",
   "service": "no",
   "jpaMetamodelFiltering": false,
   "fluentMethods": true,

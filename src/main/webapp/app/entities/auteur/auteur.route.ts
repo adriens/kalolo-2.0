@@ -40,7 +40,6 @@ export const auteurRoute: Routes = [
     component: AuteurComponent,
     data: {
       authorities: [Authority.USER],
-      defaultSort: 'id,asc',
       pageTitle: 'kaloloApp.auteur.home.title',
     },
     canActivate: [UserRouteAccessService],

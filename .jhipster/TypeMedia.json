@@ -10,12 +10,12 @@
   "changelogDate": "20200917232946",
   "entityTableName": "type_media",
   "dto": "no",
-  "pagination": "pagination",
+  "pagination": "no",
   "service": "no",
   "jpaMetamodelFiltering": false,
   "fluentMethods": true,
   "readOnly": false,
   "embedded": false,
   "clientRootFolder": "",
-  "applications": ["kalolo"]
+  "applications": "*"
 }

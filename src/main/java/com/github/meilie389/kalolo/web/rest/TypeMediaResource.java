@@ -5,16 +5,10 @@ import com.github.meilie389.kalolo.repository.TypeMediaRepository;
 import com.github.meilie389.kalolo.web.rest.errors.BadRequestAlertException;
 
 import io.github.jhipster.web.util.HeaderUtil;
-import io.github.jhipster.web.util.PaginationUtil;
 import io.github.jhipster.web.util.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
@@ -88,15 +82,12 @@ public class TypeMediaResource {
     /**
      * {@code GET  /type-medias} : get all the typeMedias.
      *
-     * @param pageable the pagination information.
      * @return the {@link ResponseEntity} with status {@code 200 (OK)} and the list of typeMedias in body.
      */
     @GetMapping("/type-medias")
-    public ResponseEntity<List<TypeMedia>> getAllTypeMedias(Pageable pageable) {
-        log.debug("REST request to get a page of TypeMedias");
-        Page<TypeMedia> page = typeMediaRepository.findAll(pageable);
-        HttpHeaders headers = PaginationUtil.generatePaginationHttpHeaders(ServletUriComponentsBuilder.fromCurrentRequest(), page);
-        return ResponseEntity.ok().headers(headers).body(page.getContent());
+    public List<TypeMedia> getAllTypeMedias() {
+        log.debug("REST request to get all TypeMedias");
+        return typeMediaRepository.findAll();
     }
 
     /**

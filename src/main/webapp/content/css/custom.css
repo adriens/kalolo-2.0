@@ -31,7 +31,7 @@
   padding-right: 10px;
 }
 
-.badge:hover {
+.badge:hover, .active-tag {
   background-color: #2e9ce5;
   box-shadow: 0px 15px 20px rgba(10, 20, 41, 0.932);
   color: #fff;
@@ -47,4 +47,10 @@
 #filter-style {
   display: flex;
   padding-top: 5px;
+}
+
+.w-10 { width: 10%; }
+
+.btn:focus {
+  box-shadow: none;
 }

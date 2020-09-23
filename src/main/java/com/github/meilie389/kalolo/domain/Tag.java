@@ -7,8 +7,8 @@ import org.hibernate.annotations.CacheConcurrencyStrategy;
 import javax.persistence.*;
 
 import java.io.Serializable;
-import java.util.HashSet;
-import java.util.Set;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * A Tag.
@@ -33,7 +33,7 @@ public class Tag implements Serializable {
     @ManyToMany(mappedBy = "tags")
     @Cache(usage = CacheConcurrencyStrategy.READ_WRITE)
     @JsonIgnore
-    private Set<Expression> exps = new HashSet<>();
+    private List<Expression> exps = new ArrayList<>();
 
     // jhipster-needle-entity-add-field - JHipster will add fields here
     public Long getId() {
@@ -70,47 +70,14 @@ public class Tag implements Serializable {
         this.definition = definition;
     }
 
-    public Set<Expression> getExps() {
+    public List<Expression> getExps() {
         return exps;
     }
 
-    public Tag exps(Set<Expression> expressions) {
-        this.exps = expressions;
-        return this;
-    }
-
-    public Tag addExps(Expression expression) {
-        this.exps.add(expression);
-        expression.getTags().add(this);
-        return this;
-    }
-
-    public Tag removeExps(Expression expression) {
-        this.exps.remove(expression);
-        expression.getTags().remove(this);
-        return this;
-    }
-
-    public void setExps(Set<Expression> expressions) {
+    public void setExps(List<Expression> expressions) {
         this.exps = expressions;
     }
     // jhipster-needle-entity-add-getters-setters - JHipster will add getters and setters here
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o) {
-            return true;
-        }
-        if (!(o instanceof Tag)) {
-            return false;
-        }
-        return id != null && id.equals(((Tag) o).id);
-    }
-
-    @Override
-    public int hashCode() {
-        return 31;
-    }
 
     // prettier-ignore
     @Override

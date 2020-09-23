@@ -3,24 +3,24 @@
     "media": {
       "home": {
         "title": "Media",
-        "createLabel": "Créer un nouveau Media",
-        "createOrEditLabel": "Créer ou éditer un Media",
-        "notFound": "Aucun Media trouvé"
+        "createLabel": "Créer un nouveau média",
+        "createOrEditLabel": "Créer ou éditer un média",
+        "notFound": "Aucun média trouvé"
       },
-      "created": "Un nouveau Media a été créé avec l'identifiant {{ param }}",
-      "updated": "Le Media avec l'identifiant {{ param }} a été mis à jour",
-      "deleted": "Le Media avec l'identifiant {{ param }} a été supprimé",
+      "created": "Un nouveau média a été créé avec l'identifiant {{ param }}",
+      "updated": "Le média avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le média avec l'identifiant {{ param }} a été supprimé",
       "delete": {
-        "question": "Etes-vous certain de vouloir supprimer le Media {{ id }} ?"
+        "question": "Etes-vous certain de vouloir supprimer le média \"{{ titre }}\" ?"
       },
       "detail": {
         "title": "Media"
       },
-      "url": "Url",
+      "url": "url",
       "date": "Date",
       "titre": "Titre",
       "description": "Description",
-      "keywords": "Keywords",
+      "keywords": "Mots-clé",
       "auteur": "Auteur",
       "type": "Type"
     }

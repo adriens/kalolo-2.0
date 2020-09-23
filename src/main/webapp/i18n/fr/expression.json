@@ -3,20 +3,20 @@
     "expression": {
       "home": {
         "title": "Expressions",
-        "createLabel": "Créer un nouveau Expression",
-        "createOrEditLabel": "Créer ou éditer un Expression",
-        "notFound": "Aucun Expression trouvé"
+        "createLabel": "Créer une nouvelle Expression",
+        "createOrEditLabel": "Créer ou éditer une expression",
+        "notFound": "Aucune expression trouvée"
       },
-      "created": "Un nouveau Expression a été créé avec l'identifiant {{ param }}",
-      "updated": "Le Expression avec l'identifiant {{ param }} a été mis à jour",
-      "deleted": "Le Expression avec l'identifiant {{ param }} a été supprimé",
+      "created": "Une nouvelle expression a été créée avec l'identifiant {{ param }}",
+      "updated": "L'expression avec l'identifiant {{ param }} a été mise à jour",
+      "deleted": "L'expression avec l'identifiant {{ param }} a été supprimée",
       "delete": {
-        "question": "Etes-vous certain de vouloir supprimer le Expression {{ id }} ?"
+        "question": "Etes-vous certain de vouloir supprimer l'expression \"{{ text }}\" ?"
       },
       "detail": {
         "title": "Expression"
       },
-      "text": "Text",
+      "text": "Texte",
       "points": "Points",
       "tags": "Tags"
     }

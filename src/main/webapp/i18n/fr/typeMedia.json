@@ -2,16 +2,16 @@
   "kaloloApp": {
     "typeMedia": {
       "home": {
-        "title": "TypeMedias",
-        "createLabel": "Créer un nouveau Type Media",
-        "createOrEditLabel": "Créer ou éditer un Type Media",
-        "notFound": "Aucun Type Media trouvé"
+        "title": "Type de Médias",
+        "createLabel": "Créer un nouveau type de média",
+        "createOrEditLabel": "Créer ou éditer un type de média",
+        "notFound": "Aucun type de média trouvé"
       },
-      "created": "Un nouveau Type Media a été créé avec l'identifiant {{ param }}",
-      "updated": "Le Type Media avec l'identifiant {{ param }} a été mis à jour",
-      "deleted": "Le Type Media avec l'identifiant {{ param }} a été supprimé",
+      "created": "Un nouveau type de média a été créé avec l'identifiant {{ param }}",
+      "updated": "Le type de média avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le type de média avec l'identifiant {{ param }} a été supprimé",
       "delete": {
-        "question": "Etes-vous certain de vouloir supprimer le Type Media {{ id }} ?"
+        "question": "Etes-vous certain de vouloir supprimer le type de média {{ libelle }} ?"
       },
       "detail": {
         "title": "Type Media"

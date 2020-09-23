@@ -1,11 +1,256 @@
-id;text;points
-1;calculating Electronics;39909
-2;Branch synthesize Drives;7718
-3;Metal Metal Borders;80836
-4;deposit;82011
-5;multi-byte;42207
-6;XML;42105
-7;withdrawal Personal Loan Account;86256
-8;Metal Road;93781
-9;Corner solid state;17628
-10;Human XSS;64585
+id,text,points
+1,"jamais fini cassé !",1
+2,"petit bâteau gros la cale",1
+3,"c’est l’heure du kaï-kaï",1
+4,"ben tontion la tête …",1
+5,"à fond loulou dans la caillasse",1
+6,"casse pas la tête…",1
+7,"t’es un vrai bétail",1
+8,"t’as entendu ça sur radio cocotier ?",1
+9,"t’as pris le sentier coutumier ?",1
+10,"allez Nouville direct !",1
+11,"à bloc !",1
+12,"à la gueule !",1
+13,"à la tôle !",1
+14,"feu patate !",1
+15,"ben ça !",1
+16,"ben c’est ça !",1
+17,"ben c’est ça aussi !",1
+18,"c’est ça aussi !",1
+19,"ben là !",1
+20,"ben là, ça claque !",1
+21,"ben alors !",1
+22,"ben tiens …",1
+23,"choc !",1
+24,"fin choc !",1
+25,"c’est choc !",1
+26,"c’est fin choc !",1
+27,"net !",1
+28,"fin net !",1
+29,"c’est net !",1
+30,"c’est fin net !",1
+31,"valab !",1
+32,"fin valab !",1
+33,"c’est valab !",1
+34,"c’est fin valab !",1
+35,"ça bombarde !",1
+36,"bombarde !",1
+37,"ça de wizz !",1
+38,"ça ké bon !",1
+39,"c’est ça ké bon !",1
+40,"kalolo !",1
+41,"kalolo i poun’ !",1
+42,"tasses-moi ça !",1
+43,"kaiafou ",1
+44,"kaillafou",1
+45,"kaya fou",1
+46,"kakoun !",1
+47,"y’en a pour toi",1
+48,"y’en a pour lui",1
+49,"woilaaa !",1
+50,"woilà lui !",1
+51,"claque-le cui’là !",1
+52,"astique-le cui’là !",1
+53,"bombarde-le cui’là !",1
+54,"allume-le cui’là !",1
+55,"roule-le cui’là !",1
+56,"bourre-le cui’là !",1
+57,"mouille-le cui’là !",1
+58,"bourre-le !",1
+59,"bourre-toi !",1
+60,"bourre-tu !",1
+61,"mange à lui",1
+62,"va te faire bounane !",1
+63,"va faire un bougna avec tes calos !",1
+64,"tu vas pisser !",1
+65,"tu veux pisser ?!",1
+66,"tu vas chier !",1
+67,"tu veux chier ?!",1
+68,"pine !",1
+69,"tête de pine !",1
+70,"chien !",1
+71,"pédale !",1
+72,"mata pilla !",1
+73,"pilla !",1
+74,"mata pia !",1
+75,"pia !",1
+76,"taper la ouère",1
+77,"tu tapes la ouère",1
+78,"taper la pine",1
+79,"tu tapes la pine",1
+80,"il tape la pine",1
+81,"il tape la ouère",1
+82,"babylone !",1
+83,"baptiste !",1
+84,"alice !",1
+85,"mathias !",1
+86,"calice !",1
+87,"katoun !",1
+88,"catoune !",1
+89,"bataillon !",1
+90,"papillon !",1
+91,"papillon la lune !",1
+92,"papaye des îles !",1
+93,"yossi !",1
+94,"yossi caillou !",1
+95,"weneyossi !",1
+96,"wanamatcha !",1
+97,"tchanem !",1
+98,"tcha !",1
+99,"tchaaaa !",1
+100,"quoi ça ?!",1
+101,"natcha !",1
+102,"culotte !",1
+103,"kilot !",1
+104,"kilot Marie Charlotte !",1
+105,"yossi, trompé la route !",1
+106,"y a moyen",1
+107,"y a moyen ?",1
+108,"y a pas moyen !",1
+109,"je connais faire",1
+110,"peau de balle",1
+111,"peau d’balle",1
+112,"caillou !",1
+113,"c’est peau de balle",1
+114,"c’est peau d’balle",1
+115,"a n’demain",1
+116,"allez",1
+117,"allez tata",1
+118,"tata",1
+119,"tata bisous",1
+120,"nana",1
+121,"babaille",1
+122,"tal",1
+123,"toul’",1
+124,"tal toul’",1
+125,"tal toul’ ma poule",1
+126,"laiss’taleur",1
+127,"je vais baigner la mer",1
+128,"va baigner !",1
+129,"je vais baigner",1
+130,"tinkyou bien",1
+131,"olé",1
+132,"oléti",1
+133,"oléti bien",1
+134,"ekolo",1
+135,"ekolo ehi",1
+136,"boulette ?",1
+137,"boulette ou quoi ?",1
+138,"il est bon ?",1
+139,"il est bon ou quoi ?",1
+140,"t’as la canne ou quoi ?",1
+141,"il est mou ou il est dur ?",1
+142,"shhhhh",1
+143,"shhhhh toi là !",1
+144,"bave pas la canne",1
+145,"arrête de baver la canne",1
+146,"il a bavé la canne sur toi",1
+147,"tu pinailles là",1
+148,"arrête de pinailler",1
+149,"pinailles pas",1
+150,"pas de pinaillage",1
+151,"fais pas ton daguet !",1
+152,"fais pas le kékesse !",1
+153,"dis pas de malélevés",1
+154,"c’est pas les manières pour toi",1
+155,"ma couille",1
+156,"vieille couille",1
+157,"mon con",1
+158,"mon con d’calo",1
+159,"eh mais tu barres bien en couille",1
+160,"ça barre en couille",1
+161,"eh mais tu barres bien en papaye",1
+162,"ça barre en papaye",1
+163,"aïta",1
+164,"moi sé fort",1
+165,"moi c’est beaucoup la force",1
+166,"je vais t’astiquer",1
+167,"je vais te caillasser",1
+168,"je vais te bombarder",1
+169,"tu vas te faire astiquer",1
+170,"tu vas te faire caillasser",1
+171,"tu vas te faire bombarder",1
+172,"tu vas ramasser",1
+173,"il va ramasser",1
+174,"tu vas prendre un pônce",1
+175,"je vais te péter un réglage",1
+176,"je vais lui péter un réglage",1
+177,"vas lui péter un réglage",1
+178,"je vais te faire brouter le coaltar",1
+179,"je vais te faire bouffer le coaltar",1
+180,"t’es bon à peau",1
+181,"rien dans le coco !",1
+182,"t’es pète-couilles",1
+183,"t’ès pète-claquettes",1
+184,"t’as un pète au compteur",1
+185,"moi sé colère fort",1
+186,"je suis fin colère !",1
+187,"fin colère !",1
+188,"je vais te courser !",1
+189,"je vais te damer !",1
+190,"je vais damer ta gueule !",1
+191,"je vais te rouler !",1
+192,"il est vert !",1
+193,"je suis vert !",1
+194,"vert le mec !",1
+195,"fin canard !",1
+196,"fin plein !",1
+197,"fin bourré !",1
+198,"fin pété !",1
+199,"AWA !",1
+200,"awa …",1
+201,"ayaoué",1
+202,"ayaouéé …",1
+203,"ahouuh !",1
+204,"dézo pour lui",1
+205,"dézo pour toi",1
+206,"eh crochéé !",1
+207,"j’ai dis à lui",1
+208,"dis bien !",1
+209,"lôngin",1
+210,"l’enculé",1
+211,"l’enkilé",1
+212,"l’empété",1
+213,"l’ômpété",1
+214,"ah lôgin",1
+215,"ah l’enculé",1
+216,"ah l’empété",1
+217,"ah l’enkilé",1
+218,"ah l’ômpété",1
+219,"ben lôgin",1
+220,"ben l’enculé",1
+221,"ben l’enkilé",1
+222,"ben l’empété",1
+223,"ben l’ômpété",1
+224,"vas-y mouille !",1
+225,"planter une chouchoute",1
+226,"planter un sikiss",1
+227,"planter un sikol",1
+228,"planter un canon",1
+229,"péter un coup de fête",1
+230,"péter un coup de coutune",1
+231,"péter un coup de chasse",1
+232,"péter un coup de pêche",1
+233,"péter un coup de dérive",1
+234,"péter un coup de plonge",1
+235,"péter une topette",1
+236,"claquer un coup de fête",1
+237,"claquer un coup de coutume",1
+238,"chaquer un coup de chasse",1
+239,"claquer un coup de pêche",1
+240,"claquer un coup de dérive",1
+241,"claquer un coup de plonge",1
+242,"t’as essayé de feinter ?",1
+243,"tu veux feinter ?",1
+244,"eh feinté !",1
+245,"je suis fiu",1
+246,"je suis marré",1
+247,"iia !",1
+248,"Iiaoué !",1
+249,"fin colère",1
+250,"fin beau",1
+251,"fin joli",1
+252,"fin bon",1
+253,"fin ban",1
+254,"fin nul",1
+255,"fin drôle",1

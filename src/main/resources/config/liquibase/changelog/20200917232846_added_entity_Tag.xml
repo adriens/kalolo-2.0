@@ -42,7 +42,7 @@
     <changeSet id="20200917232846-1-data" author="jhipster" context="faker">
         <loadData
                   file="config/liquibase/fake-data/tag.csv"
-                  separator=";"
+                  separator=","
                   tableName="tag">
             <column name="id" type="numeric"/>
             <column name="libelle" type="string"/>

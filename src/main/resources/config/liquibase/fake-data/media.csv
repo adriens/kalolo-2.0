@@ -1,11 +1,156 @@
-id;url;date;titre;description;keywords
-1;https://dashawn.name;2020-09-17T19:28:25;SDR;International;synergies Music e-services
-2;http://willy.biz;2020-09-17T05:29:51;Fresh aggregate;backing up process improvement Ethiopia;Washington
-3;https://bernard.name;2020-09-17T01:27:32;Viaduct;FTP Berkshire;applications Ridges
-4;https://norris.org;2020-09-17T12:03:47;redefine hacking Tactics;back-end;communities Ergonomic
-5;https://benton.biz;2020-09-17T01:20:36;reintermediate yellow;array;Jewelery
-6;https://wade.net;2020-09-17T14:47:17;drive firewall;bluetooth Awesome Steel Mouse synthesize;EXE
-7;https://ahmad.info;2020-09-17T02:37:57;Libyan Dinar directional Parks;United Kingdom Sleek Plastic Shoes;payment
-8;http://nelson.name;2020-09-17T00:14:59;Specialist Corporate;applications Track redundant;Gorgeous
-9;https://jerrod.info;2020-09-17T00:51:11;Somoni;Yuan Renminbi Personal Loan Account Bulgaria;customized Moroccan Dirham National
-10;http://layla.biz;2020-09-17T02:46:19;El Salvador Cedi brand;frame Rand Namibia Dollar Agent;feed artificial intelligence
+id,url,date,titre,description,keywords,auteur_id,type_id
+1,"https://youtu.be/cg7hrkemai4","2000-01-01","La Tribu de Fifils","Extrait de son album \"An 2000 en liberté\"","tribu dana faubourg vdt",1,2
+2,"https://youtu.be/_S813Sbp-IM","2000-01-01","La Bancoule à Mamie","Extrait de son album \"An 2000 en liberté\"","ver bancoule asticot farino fogliani zoreil",1,2
+3,"https://youtu.be/3Nl5Fo_bT04","1992-01-01","Notre Caillou","Extrait de son album \"Kons Sensus\"","caledonie caillou cocotier niaouli lagon picot dawa chasse",1,2
+4,"https://youtu.be/qcOMiuRkzHU","1992-01-01","C'est toi mon amour","Extrait de la compilation \"Les accords du père François\"","amour flamme bougna cochon igname divorce",1,2
+5,"https://youtu.be/5dm8b-Xm3C0?list=RD5dm8b-Xm3C0","2019-08-18","Les zoreils","Extrait de son album \"Kons Sensus\"",,1,2
+6,"https://youtu.be/QDmQbScJ1Sw","2011-11-06","Air Kanin Air Kanaky International","Extrait de la compilation \"Les accords du père François\"",,1,2
+7,"https://youtu.be/NEHJnzSo8Kw","2011-03-09","Le Tourisme Vert","Extrait de la compilation \"Les accords du père François\"",,1,2
+8,"https://youtu.be/Ap7R01LV_vY","2012-02-15","An 2000, c'est la Boulette","Extrait de son album \"An 2000 en liberté\"",,1,2
+9,"https://youtu.be/s4cJ0fDtgDo","2011-09-11","Le Loulou Garou","Extrait de la compilation \"Les accords du père François\"",,1,2
+10,"https://youtu.be/xZxvT9dC-uQ","2012-02-16","Revue de Presse","Extrait de la compilation \"Les accords du père François\"",,1,2
+11,"https://www.facebook.com/kingtazNC/videos/893274671099277/","2020-05-29","Kingtäz Classics - Alice et le chat feinteur (Parodie Alice au pays des merveilles)","Parodie spécialement dédiée à ma petite Alice née lundi après-midi","dessin anime alice disney parodie tiktok sao",3,2
+12,"https://www.facebook.com/kingtazNC/videos/2065294666832542/","2017-10-25","Kingtäz - Le Camp Ouest","Le Camp Ouest ! Mieux vaut pas être incarcéré là bas ...","sketch audio camp ouest zoreil cannabis taureau brochette poulet kfc",3,2
+13,"https://www.facebook.com/kingtazNC/videos/1916505638378113/","2017-06-30","Kingtäz - L'entretien d'embauche","SKETCH AUDIO - L'entretien d'embauche","sketch audio entretien embauche",3,2
+14,"https://youtu.be/KNZF4hjEDI0","2019-08-01","Kingtäz - Un Zoreil à Bourail EPISODE 0","Un Zoreil à Bourail - Episode 0 (Prequel)","parodie retour vers le futur zoreil foire bourail",3,2
+15,"https://youtu.be/APNXweghLuI","2019-08-01","Kingtäz - Un Zoreil à Bourail EPISODE 1","Un Zoreil à Bourail - Episode 1 (Avec les voix de Dany & Kingtäz)","parodie retour vers le futur zoreil foire bourail",3,2
+16,"https://youtu.be/D7lyCqh1K6k","2019-08-01","Kingtäz - Un Zoreil à Bourail EPISODE 2","Un Zoreil à Bourail - Episode 2 (Avec les voix de Dany & Kingtäz)",,3,2
+17,"https://youtu.be/_w71rWC-vSM","2019-08-01","Kingtäz - Un Zoreil à Bourail EPISODE 3","Un Zoreil à Bourail - Episode 3 (Avec les voix de Dany & Kingtäz)",,3,2
+18,"https://youtu.be/EMXqMkVoONM","2019-08-14","Kingtäz - Un ZOREIL A BOURAIL - EP.1 (ORIGINAL)","AVEC DANY BANREU",,3,2
+19,"https://youtu.be/12ztWg0II7E","2011-05-24","Le seigneur des anneaux Parodie Caldoche","Parodie avec des expressions, et des accents de Nouvelle-Calédonie ! Juste un petit délire au passage, j'avais rien à foutre une apres-midi, donc voilà ce que ça donne ! Enjoy ! :D",,3,2
+20,"https://youtu.be/ZoZ732q17ZM","2011-05-26","Kingtäz - Parodie Seigneur des anneaux 2","Ma deuxieme parodie du seigneur des anneaux version caldoche ! La suite arrive, donc après je vais tout racoller les videos, comme ça ça feras une histoire de 10 minutes environ ! Faites tourner SVP !!!",,3,2
+21,"https://youtu.be/mJVaaAHCUcM","2011-05-26","Kingtäz - Parodie Seigneur des Anneaux N. 3 !!!!","Suite à un bon succes des 2 premieres vidéos, voici la 3ème en cadeau !!! Continuez à faire tourner ça fais plaisir !!! By DJ Kingtäz ;)",,3,2
+22,"https://youtu.be/nDHgCEdtcPI","2011-05-28","Kingtäz - Le seigneur des anneaux caldoche parodie N.4","Voici la numéro 4 !!!",,3,2
+23,"https://youtu.be/9M9iSPMAkEA","2011-05-31","Kingtäz - Parodie Harry Potter Caldoche","Voilà, à la demande de beaucoup que je change de film pour tester un coup, une parodie de harry potter 1, qui dure déjà 4:30 (beaucoup plus long) à vous de dire si c'est toujours choc ! Faites tourner la bande !! :)",,3,2
+24,"https://youtu.be/AYd8LaHSTb4","2011-05-31","Kingtäz - Parodie Seigneur des Anneaux EXTRA","Petit Extra très court des parodies du seigneur des anneaux by Quentin Joubert / DJ Kingtäz.  Enjoy !",,3,2
+25,"https://youtu.be/Vrmr0Fqw0Pk","2011-06-09","Kingtäz - Esther Parodie","Une ptite nouvelle en attendant la prochaine ! By Kingtäz - Quentin Joubert",,3,2
+26,"https://youtu.be/jPCLEJe4-xs","2011-07-11","Kingtäz - Pirates des Caraïbes Parodie (Juillet 2011)","Et voilà une petite de pirates des caraïbes ! La suite pour bientôt que je ferais en direct de la Malaisie dans quelques semaines !",,3,2
+27,"https://youtu.be/lA2QVFAc3AM","2011-07-17","Kingtäz - Parodie Interview David Guetta","Petite parodie d'une interview de David Guetta .... Ouais ouais, il est un peu débile .... ENJOY !!!! :D",,3,2
+28,"https://youtu.be/hSPFlf369JM","2011-08-05","Kingtäz - Parodie Twilight (5 AOÛT 2011)","Voici la parodie de Twilight finie ! Merci pour votre patience, et faites tourner comme les autres ! À très bientôt avec une nouvelle parodie, qui seras enregistrée directement à Nouméa cette fois ci !",,3,2
+29,"https://youtu.be/QiRZ3cSwMA8","2011-11-22","Kingtäz - Le GPS Calédonien (Original)","Petit sketch sur un improbable GPS Calédonien .... Vos avis ?? Faut en faire un pour de vrai ou quoi ?! ;)",,3,2
+30,"https://youtu.be/mHdciWbv_kw","2011-12-16","Kingtäz - Parodie Aladdin","Il ne faut pas croire que tout le monde il est gentil dans les Disney's .... La preuve !!!",,3,2
+31,"https://youtu.be/9vJe2KJAOvg","2012-01-11","Kingtäz - Parodie Le Roi Lion","Faite en peu de temps, par manque de temps entre autre ... Mais bon ! Enjoy quand même !! :)",,3,2
+32,"https://youtu.be/7j6R0MmIiGQ","2012-01-13","Quentin Joubert (Kingtäz) presents - Kingtäz Airlines","Pour suivre la lignée du GPS Calédonien ... Voici Kingtäz Airlines ! Enjoy ! :)",,3,2
+33,"https://youtu.be/lH5eOxdxbpE","2012-03-20","Kingtäz presents MC Neketch !","Petit délire d'un week end ... Partagez !!!",,3,2
+34,"https://youtu.be/AiRqvgQYQY","2012-05-08","Kingtäz - Parodie \"Le Rite\"","Petite parodie du film \"The Rite\" avec Anthony Hopkins ! Parodie du 8 Mai 2012.",,3,2
+35,"https://youtu.be/gyZGFdyZITY","2012-06-18","Kingtäz - Parodie Twilight II","Après un petit moment d'absence, je suis de retour avec une nouvelle vidéo sur Twilight !",,3,2
+36,"https://youtu.be/wgPmNL8pMzQ","2012-10-09","Kingtäz 2012 - Parodie Seigneur des Anneaux (Remasterisé)","Premier Remastering ! Enjoy, et faites tourner cette nouvelle version inédite !",,3,2
+37,"https://youtu.be/h37NNATblaY","2012-12-12","Kingtäz - Parodie Journal TV NC 1ère","Ahouuuu Nathalie Déléléïpé !",,3,2
+38,"https://youtu.be/6uUspLx03F8","2012-12-12","Kingtäz - Parodie Fast and Furious","Ahouka Mr Propre !!!",,3,2
+39,"https://youtu.be/-rON7PwCrqM","2013-04-29","Kingtäz L'auto-stop (Zombieland)","Nouvelle parodie !! Cette fois ci sur le film ZOMBIELAND !!!",,3,2
+40,"https://youtu.be/_J5yJADqo9Q","2013-05-15","Manifestation contre la vie chère à Nouméa !! GROS BORDEL !!","Avouez que vous y avez cru hein !!! Enjoy la nouvelle parodie !! Featuring MATTHIEU LARROUY",,3,2
+41,"https://youtu.be/H-CjZdqu0QQ","2014-09-18","Kingtäz Carglass Calédonie","Petite pub de Carglass qui devrait ressembler à ça en Calédonie …",,3,2
+42,"https://youtu.be/BUq5OcOzwkM","2014-11-17","Kingtäz - François Hollande 2014","François Hollande s'est bien acclimaté !!! ^^",,3,2
+43,"https://youtu.be/c2a-3baSd80","2015-03-28","Kingtäz Interview Jackie Chan","Même Jackie Chan a réagit sur les vidéos de Bastons en NC !!! Abusé ................. ;)",,3,2
+44,"https://youtu.be/FE49QyrOLC0","2015-05-01","Kingtäz Anniversary #1","Pour fêter les 4 ans de kingtäz Productions, voici 4 parodies remasterisées & inédite toutes les semaines du mois de Mai 2015 !",,3,2
+45,"https://youtu.be/1ebyO4r5xoM","2015-05-06","Kingtäz - Sex Academy (Parodie Caldoche)","Enjoy !",,3,2
+46,"https://youtu.be/E_21QRNIpc8","2015-05-09","Kingtäz - Hotel Aïta Le Luxe (SKECTH CALDOCHE) 2015","Cette vidéo est spécialement dédicassée à Anaïs Valin qui nous a quitté le 4/05/2015. En souvenir de nos années à Escoffier !",,3,2
+47,"https://youtu.be/K7eTdnw0NyE","2016-11-29","Kingtäz - Le blanc trop intégré *Part 1* (Scary Movie 3)",,,3,2
+48,"https://youtu.be/aXg1II_RgSk","2016-03-17","Kingtäz - Pub Samsung 2016","Ka Bourre Toiiiiiiiiiiiiiiii",,3,2
+49,"https://youtu.be/uBpCJ-n2_eU","2016-11-29","Kingtäz - Les Météos du Monde (Parodie)",,,3,2
+50,"https://youtu.be/zpM3ROLVFH4","2016-11-29","Kingtäz - L'université des Monstres Halloween",,,3,2
+51,"https://youtu.be/dod52EH7QAw","2016-11-29","Kingtäz - Le blanc trop intégré Part 2 (Scary Movie 3)",,,3,2
+52,"https://youtu.be/GpX7DfOUNoc","2017-05-25","Kingtäz - TON NOM !","Ton nom en Lifou ! AWEEEE",,3,2
+53,"https://youtu.be/hmL24bJM3r0","2017-05-25","Kingtäz - Parodie Batman VS Superman","C'est pas facile d'être un super-héros en fait ... :p",,3,2
+54,"https://youtu.be/byug4sW1w2Y","2017-05-25","Kingtäz - Parodie Le Roi Lion (Avec Dany Banreu)","La fête des pères, ben y'a aussi chez les lions !",,3,2
+55,"https://youtu.be/KWKlD720fRQ","2017-11-26","PARODIE LA BELLE & LA BÊTE – Kingtäz","Détournement de La Belle & la Bête en version NOUVELLE-CALÉDONIE !",,3,2
+56,"https://youtu.be/Bu6Q8i7UMOg","2017-12-05","Kingtäz La foire de Bourail (Sketch audio illustré)","Kingtäz - SKETCH AUDIO ILLUSTRÉ - LA FOIRE DE BOURAIL (avec mon con d'zoreil encore ...) Illustrations par Flo Kämô !",,3,2
+57,"https://youtu.be/MlPD_tEPy60","2019-02-12","KINGTÄZ - PARODIE TITANIC (2019)","Détournement du film Titanic, en version Calédonienne !  (Donc cherchez pas si vous comprenez pas tout, venez plutôt en vacances chez nous !)",,3,2
+58,"https://youtu.be/yM4dqF60XDc","2019-04-28","KINGTÄZ - PARODIE FRÈRE DES OURS (2019)","Les préjugés c'est pas bien ..... ;)",,3,2
+59,"https://youtu.be/LA81qmazxNE","2019-05-27","Kingtäz - Parodie Simpsons (Milakulo le recherché)","Ceci est un message du gouvernement de Springfield :D",,3,2
+60,"https://youtu.be/4kn5qfeTsBA","2019-08-01","Kingtäz - Harry Tripotteur et la Rentrée Magique (2016)",,,3,2
+61,"https://youtu.be/q66KxA2kiAc","2019-08-01","D&K - Parodie Age de Glace (2016)","By Dany & Kingtäz",,3,2
+62,"https://youtu.be/E5_aaSDjv3I","2019-08-01","D&K - Parodie Aladdin (2016)","By Dany & Kingtäz",,3,2
+63,"https://youtu.be/Xr4V2fTDDUk","2019-08-01","D&K - Parodie Kuzco","By Dany & Kingtäz",,3,2
+64,"https://youtu.be/epmypoMVZg8","2019-11-14","Kingtäz - Parodie Jurassic Park","Qui l'eu cru ! Les dinosaures savaient parler ... (et cracher)",,3,2
+65,"https://youtu.be/Z6zHzqfGHf0","2019-09-04","Kingtäz - LES ZÉLUS (SAISON 2) INTRO","RDV sur www.nci.nc !",,3,2
+66,"https://youtu.be/ZiAqacr1eN4","2020-01-14","KINGTÄZ - LES ZÉLUS SAISON 2","Reprise de la série avec une saison 2 pour l'année 2020 ! :)",,3,2
+67,"https://youtu.be/WKfxZorlr9s","2020-01-23","KINGTÄZ - LES ZÉLUS - SAISON 2.EP.01","On va pas en faire tout un silip de cette histoire non plus hein ... :)",,3,2
+68,"https://www.facebook.com/armagzcvup/videos/1234063209995527/","2017-01-15","Les cars.","CETTE VIDEO EST POUR CARSUD ET KARUIA! Toujours en retard mais jamais à l'heure!","sketch carsud karuia retard",4,2
+69,"https://www.facebook.com/kingtazNC/videos/1916505638378113/","2019-08-01","Tuto Gomen - Siri","héé looonculéé ! Le cousin de Gomen qui se met à faire des vidéos! Aujourd'hui il parle de Siri...enfin il parle à Siri! xD","sketch iphone siri",4,2
+70,"https://youtu.be/QNdpuL5bf24","2017-12-27","ARMAGZ - LES PAPAS EN NC (LTOM)","La bande, dorénavant je ferais une chronique vidéo pour l'émission 'Les témoins d'Outre-Mer' ( LTOM ) !","sketch papa caldoche",4,2
+71,"https://youtu.be/1WYRpObqspk","2017-05-07","ARMAGZ - LA L","haa la filière L x) ...","sketch fillère L profs clochards",4,2
+72,"https://youtu.be/XGBHJDHsEE4","2011-05-10","L'anniversaire de Momo",,"canette fm anniversaire momo brasserie biere number one",2,2
+73,"https://youtu.be/sivHX5APJhU","2020-01-01","Le corbeau et le renard",,,2,2
+74,"https://youtu.be/iXTmT4-6oV8","2011-08-10","Le cercle des mecs valab' disparus",,,2,2
+75,"https://youtu.be/8AAeZeBTP6E","2011-08-10","New pines on the block",,,2,2
+76,"https://youtu.be/Nj817mZXCyY","2011-08-10","Nadège",,,2,2
+77,"https://youtu.be/HbV43q-p91E","2011-08-10","La tendresse",,,2,2
+78,"https://youtu.be/uZMxd1QUDBs","2011-08-09","Abraham Cadabran",,,2,2
+79,"https://youtu.be/4buVuddrLpI","2011-08-09","Coupe du Monde 1994",,,2,2
+80,"https://youtu.be/naeYjthGkuI","2011-08-09","La cigale et la fourmi",,,2,2
+81,"https://youtu.be/iXTmT4-6oV8","2011-08-09","Miss Nakutakoin",,,2,2
+82,"https://youtu.be/zAY1Z1JZZVs","2011-08-09","Les 3 petits pocas",,,2,2
+83,"https://youtu.be/NAVOxl9K5aE?list=PLD914770741CDE88D","2011-05-28","Le temps qu'il nous reste","Extrait de son album \"Avini Ute\" (chaîne Youtube : Timi Jarossay)",,5,2
+84,"https://youtu.be/kZEp7QkCAno?list=PLD914770741CDE88D","2011-05-19","Marutea (Sud)","Extrait de son album \"Keanu\" (chaîne Youtube : Timi Jarossay)",,5,2
+85,"https://youtu.be/xCXY5k9WikE?list=PLD914770741CDE88D","2011-05-16","Une Fleur Rien Qu'une Rose","Extrait de son album \"Une fleur rien qu’une rose\" (chaîne Youtube : Timi Jarossay)",,5,2
+86,"https://youtu.be/R6SNiBkFSZ4?list=PLD914770741CDE88D","2011-05-15","Loco por amor","Extrait de son album \"Souvenir souvenir\" (chaîne Youtube : Timi Jarossay)",,5,2
+87,"https://youtu.be/70WHCMlnQEc?list=PLD914770741CDE88D","2011-05-09","Aue te Tiare","Extrait de son album \"Rairoa Iti E\" (chaîne Youtube : Timi Jarossay)",,5,2
+88,"https://youtu.be/AHFdjUdquc0?list=PLD914770741CDE88D","2011-05-08","O Tahiti nui","Extrait de son album \"Fiu Te Ohipa\" (chaîne Youtube : Timi Jarossay)",,5,2
+89,"https://youtu.be/30kRxpT_rt0?list=PLD914770741CDE88D","2011-05-05","Nohoarii","Extrait de son album \"Tahiti Remix\" (chaîne Youtube : Timi Jarossay)",,5,2
+90,"https://youtu.be/irEyAy0ERR8?list=PLD914770741CDE88D","2011-05-03","Au revoir au revoir Calédonie","Extrait de son album \"Hotu Rau\" (chaîne Youtube : Timi Jarossay)",,5,2
+91,"https://youtu.be/gTjfuVQrcNU?list=PLD914770741CDE88D","2011-04-29","Tahiti mon exil","Extrait de son album \"Homai – Heitea\" (chaîne Youtube : Timi Jarossay)",,5,2
+92,"https://youtu.be/fLngtvVLHqE?list=PLD914770741CDE88D","2011-04-28","Te Taere Maohi","Extrait de son album \"Keanu\" (chaîne Youtube : Timi Jarossay)",,5,2
+93,"https://youtu.be/SUHlbyDJVOw?list=PLD914770741CDE88D","2011-04-27","hianau","Extrait de son album \"Liberte\" (chaîne Youtube : Timi Jarossay)",,5,2
+94,"https://youtu.be/8oHcLjjfgYU?list=PLD914770741CDE88D","2011-04-24","Moa Faatito","Extrait de son album \"Liberte\" (chaîne Youtube : Timi Jarossay)",,5,2
+95,"https://youtu.be/K_7GemaVpj4?list=PLD914770741CDE88D","2011-04-13","Par Amour","Extrait de son album \"Avini Ute\" (chaîne Youtube : Timi Jarossay)",,5,2
+96,"https://youtu.be/mFvN6UuAsLs?list=PLD914770741CDE88D","2011-04-12","La Ballade de Vairao","Extrait de son album \"Hotu Rau\" (chaîne Youtube : Timi Jarossay)",,5,2
+97,"https://youtu.be/okCZ2LxBNeU?list=PLD914770741CDE88D","2011-03-17","I te ra ra tau","Extrait de son album \"Le Fafaru\" (chaîne Youtube : Timi Jarossay)",,5,2
+98,"https://youtu.be/H9YkOVsIu9U?list=PLD914770741CDE88D","2011-03-19","Te Farereiraa","Extrait de son album \"Jesus mon sauveur\" (chaîne Youtube : Timi Jarossay)",,5,2
+99,"https://youtu.be/vYkUpyg-DOo?list=PLD914770741CDE88D","2011-06-22","Tiare Hinano","Extrait de son album \"Avini Ute\" (chaîne Youtube : Timi Jarossay)",,5,2
+100,"https://youtu.be/nEwdNvkmjkM?list=PLD914770741CDE88D","2011-08-22","Iri A'e Te Pahi","Extrait de son album \"Une fleur rien qu’une rose\" (chaîne Youtube : Timi Jarossay)",,5,2
+101,"https://youtu.be/KHnASnkTgKk?list=PLD914770741CDE88D","2011-09-08","Te Koina Noere","Extrait de son album \"Noera I Tahiti\" (chaîne Youtube : Timi Jarossay)",,5,2
+102,"https://youtu.be/E5VtQG_673c?list=PLD914770741CDE88D","2011-04-04","Matahiti Hiti Mano","(chaîne Youtube : Timi Jarossay)",,5,2
+103,"https://youtu.be/H1vQZjz6Vho?list=PLD914770741CDE88D","2011-10-03","Toetoe Ta'u Tino","Extrait de son album \"Souvenirs\" (chaîne Youtube : Timi Jarossay)",,5,2
+104,"https://youtu.be/chS4f_1CIjo?list=PLD914770741CDE88D","2011-10-04","Tohivea Moorea","Extrait de son album \"Potii no te Peho\" (chaîne Youtube : Timi Jarossay)",,5,2
+105,"https://youtu.be/Oizu2HqYLTw?list=PLD914770741CDE88D","2011-10-22","Tamara te pahi","Extrait de son album \"Orchestre Petiot 22 Molokai\" (chaîne Youtube : Timi Jarossay)",,5,2
+106,"https://youtu.be/NLW0XTlYVh8?list=PLD914770741CDE88D","2011-10-29","Cette belle nuit étoilée","Extrait de son album \"Best of Vol.2\" (chaîne Youtube : Timi Jarossay)",,5,2
+107,"https://youtu.be/Oy9p6twS_iQ?list=PLD914770741CDE88D","2011-11-03","Tei te ara tau tino","Extrait de son album \"Avini Ute\" (chaîne Youtube : Timi Jarossay)",,5,2
+108,"https://youtu.be/KmQxKuItE78?list=PLD914770741CDE88D","2011-11-11","Avini Ute","Extrait de son album \"Avini Ute\" (chaîne Youtube : Timi Jarossay)",,5,2
+109,"https://youtu.be/a5xt7tUo6U8?list=PLD914770741CDE88D","2011-11-18","Macao","Extrait de son album \"Fiu Te Ohipa\" (chaîne Youtube : Timi Jarossay)",,5,2
+110,"https://youtu.be/r_IKO8DDlEA?list=PLD914770741CDE88D","2011-11-18","Faaa no Tahiti","Extrait de son album \"Rohi Pehe\" (chaîne Youtube : Timi Jarossay)",,5,2
+111,"https://youtu.be/4CsFET8rljw?list=PLD914770741CDE88D","2011-12-05","Bain de Soleil - Petite île Sacrée & Vaihiria","Extrait de son double album \"Gabilou chante les Barefoot Boys\" (chaîne Youtube : Timi Jarossay)",,5,2
+112,"https://youtu.be/swu_p3V6zPI?list=PLD914770741CDE88D","2011-12-11","Te Koina Noere (Spécial Noël)","Extrait de son album \"Noera I Tahiti\" (chaîne Youtube : Timi Jarossay)",,5,2
+113,"https://youtu.be/O_3GDzoTbN8?list=PLD914770741CDE88D","2011-12-24","Noera no te Tamarii (Spécial Noël)","Extrait de son album \"Gabilou\" (chaîne Youtube : Timi Jarossay)",,5,2
+114,"https://youtu.be/7-QBsjEeBfw?list=PLD914770741CDE88D","2011-12-24","Petit Papa Noël (Spécial Noël)","Extrait de son album \"Noera Tahiti\" (chaîne Youtube : Timi Jarossay)",,5,2
+115,"https://youtu.be/4d4E8A12A8o?list=PLD914770741CDE88D","2011-12-27","Matahiti Hiti","Extrait de son album \"Hotu Rau\" (chaîne Youtube : Timi Jarossay)",,5,2
+116,"https://youtu.be/lYGrgyBMCO0?list=PLD914770741CDE88D","2012-01-16","Ma Chanson est Tahitienne","(chaîne Youtube : Timi Jarossay)",,5,2
+117,"https://youtu.be/QVdkE7DyTIw?list=PLD914770741CDE88D","2012-01-20","Melahi e","Extrait de son album \"Fiu Te Ohipa\" (chaîne Youtube : Timi Jarossay)",,5,2
+118,"https://youtu.be/TopKkArQojY?list=PLD914770741CDE88D","2012-01-22","Ma Jolie île Natale","Extrait de son album \"Nohoarii\" (chaîne Youtube : Timi Jarossay)",,5,2
+119,"https://youtu.be/tfFH0MXnCeM?list=PLD914770741CDE88D","2012-01-24","La Tiare","Extrait de son album \"Gabilou contre Gabilou\" (chaîne Youtube : Timi Jarossay)",,5,2
+120,"https://youtu.be/FyaGQKtiXAM?list=PLD914770741CDE88D","2012-02-17","Tangi te Manu","Extrait de son album \"enregistrement original 1969\" (chaîne Youtube : Timi Jarossay)",,5,2
+121,"https://youtu.be/KQLCWa8yNPk?list=PLD914770741CDE88D","2012-02-17","Mama Erena","Extrait de son album \"Porii no te Peo\" (chaîne Youtube : Timi Jarossay)",,5,2
+122,"https://youtu.be/kpWFBLac6QM?list=PLD914770741CDE88D","2012-02-18","Noho","Extrait de son album \"Taporo IV\" (chaîne Youtube : Timi Jarossay)",,5,2
+123,"https://youtu.be/0wO_aXsP1Ko?list=PLD914770741CDE88D","2012-02-22","Bella Bella me amor","Extrait de son album \"Souvenir de Tahiti\" (chaîne Youtube : Timi Jarossay)",,5,2
+124,"https://youtu.be/8SDnu_DZKv4?list=PLD914770741CDE88D","2012-02-23","Kiaora - Tamure","Extrait de son album \"Barefoot Boys Original n°13\" (chaîne Youtube : Timi Jarossay)",,5,2
+125,"https://youtu.be/BctxlSpEguE?list=PLD914770741CDE88D","2012-02-23","Pinoi","Extrait de son album \"Barefoot Boys Vol.1\" (chaîne Youtube : Timi Jarossay)",,5,2
+126,"https://youtu.be/JOLgRWpSm_8?list=PLD914770741CDE88D","2012-02-29","Bora Bora nui","Extrait de son album K7 \"Gabilou en public\" (chaîne Youtube : Timi Jarossay)",,5,2
+127,"https://youtu.be/XpGBphXedVY?list=PLD914770741CDE88D","2012-05-13","Raiatea nui no oe teie pehe","Extrait de son album \"Rairoa Iti E\" (chaîne Youtube : Timi Jarossay)",,5,2
+128,"https://youtu.be/JHYJ0W39dak?list=PLD914770741CDE88D","2013-09-21","Te Hana","Extrait de son album \"50 ans déjà\" (chaîne Youtube : Timi Jarossay)",,5,2
+129,"https://youtu.be/WgJv0jDmnOc?list=PLD914770741CDE88D","2013-09-17","50 ans déjà","Extrait de son album \"Te Hana\" (chaîne Youtube : Timi Jarossay)",,5,2
+130,"https://youtu.be/5f9NUeZRFpg?list=PLD914770741CDE88D","2013-07-10","Papara nui","Extrait de son album \"Porii no te Peo\" (chaîne Youtube : Timi Jarossay)",,5,2
+131,"https://youtu.be/tFPGicbt_LQ?list=PLD914770741CDE88D","2012-06-08","Ahi'a","Extrait de son album \"Ahi’A\" (chaîne Youtube : Timi Jarossay)",,5,2
+132,"https://youtu.be/_rf1COX8ACA?list=PLD914770741CDE88D","2012-06-08","Puhihau te matai","Extrait de son album \"Keanu\" (chaîne Youtube : Timi Jarossay)",,5,2
+133,"https://youtu.be/jMWpw2dBFzo?list=PLD914770741CDE88D","2012-06-12","Mauahi","Extrait de son album \"Ahi’A\" (chaîne Youtube : Timi Jarossay)",,5,2
+134,"https://youtu.be/nVVQkyr-gIs?list=PLD914770741CDE88D","2012-06-12","La Banane","Extrait de son album \"Hotu Rahu\" (chaîne Youtube : Timi Jarossay)",,5,2
+135,"https://youtu.be/p_OKb6t8fgI?list=PLD914770741CDE88D","2012-08-10","Tahatai Cigogne","Extrait de son album \"Te Uru E Souviens-toi Lea\" (chaîne Youtube : Timi Jarossay)",,5,2
+136,"https://youtu.be/njqJ27Bgu58?list=PLD914770741CDE88D","2012-08-04","Voilà les Gars de la Marine","Extrait de son album \"Porii no te Peo\" (chaîne Youtube : Timi Jarossay)",,5,2
+137,"https://youtu.be/Rdq3qJ8CDMA?list=PLD914770741CDE88D","2012-06-28","Tiare Teatea","Extrait de son album \"Tapore IV\" (chaîne Youtube : Timi Jarossay)",,5,2
+138,"https://youtu.be/zjC5j_XTBQw?list=PLD914770741CDE88D","2012-06-28","Pikirunga","Extrait de son album \"Avini Ute\" (chaîne Youtube : Timi Jarossay)",,5,2
+139,"https://youtu.be/6tLFMBPUZlw?list=PLD914770741CDE88D","2012-11-03","Aue te mamae","Extrait de son album \"Ahi’A\" (chaîne Youtube : Timi Jarossay)",,5,2
+140,"https://youtu.be/eHHY7WU5Gkw?list=PLD914770741CDE88D","2012-09-30","Vinivini","(chaîne Youtube : Timi Jarossay)",,5,2
+141,"https://youtu.be/3NMe76vXikk?list=PLD914770741CDE88D","2012-12-21","Avant de nous dire adieu","Extrait de son album \"Avini Ute\" (chaîne Youtube : Timi Jarossay)",,5,2
+142,"https://youtu.be/hwODosB8WA8?list=PLD914770741CDE88D","2012-12-22","Purotu Raimere","Extrait de son album \"Porii no te Peo\" (chaîne Youtube : Timi Jarossay)",,5,2
+143,"https://youtu.be/MfXua7MHuxk?list=PLD914770741CDE88D","2012-12-22","Aue te nehenehe","Extrait de son album \"Fiu Te Ohipa\" (chaîne Youtube : Timi Jarossay)",,5,2
+144,"https://youtu.be/KNIi6ZFMivw?list=PLD914770741CDE88D","2012-11-20","Met to Seize Mille","Extrait de son album \"Hai’A\" (chaîne Youtube : Timi Jarossay)",,5,2
+145,"https://youtu.be/tbEZpKMzxSo?list=PLD914770741CDE88D","2013-03-26","hei miri iti e","(chaîne Youtube : Timi Jarossay)",,5,2
+146,"https://youtu.be/Zsrf1OYhn0s?list=PLD914770741CDE88D","2013-03-07","Te Vahine Uturoa","Extrait de son album \"Porii no te Peo\" (chaîne Youtube : Timi Jarossay)",,5,2
+147,"https://youtu.be/jx1XwCkyhbo?list=PLD914770741CDE88D","2013-02-25","Vini te Manu","Extrait de son album \"Gabilou & les Bananas Boys\" (chaîne Youtube : Timi Jarossay)",,5,2
+148,"https://youtu.be/io2hqJct0js?list=PLD914770741CDE88D","2013-01-22","heimata","Extrait de son album \"Fiu Te Ohipa\" (chaîne Youtube : Timi Jarossay)",,5,2
+149,"https://youtu.be/qD-qjasp1xA?list=PLD914770741CDE88D","2013-10-07","Aore koe e gnaro Makemo","Extrait de son album \"Tahiti Remix\" (chaîne Youtube : Timi Jarossay)",,5,2
+150,"https://youtu.be/ihqlUZRECiQ?list=PLD914770741CDE88D","2013-10-07","Na oe Vairea","Extrait de son album \"Te Uru E\" (chaîne Youtube : Timi Jarossay)",,5,2
+151,"https://youtu.be/tRwaXUANHZc?list=PLD914770741CDE88D","2013-10-08","De temps en temps","Extrait de son album \"Te Uru E\" (chaîne Youtube : Timi Jarossay)",,5,2
+152,"https://youtu.be/Qm_tdlE0ajs","2010-04-30","Fakateretere","Clip du succés de Gabilou \"Fakateretere\" tournée en Polynésie française (chaîne Youtube : SAMIRICO67 MOANA NUI)",,5,2
+153,"https://youtu.be/9c6zrCs9rC4","2016-06-28","Gabilou Apetahi","(chaîne Youtube :  E N A E C O)",,5,2
+154,"https://youtu.be/WQSUeCRSETo","2018-12-24","Je t'aime","Extrait de son album \"Hotu Rau\" (chaîne Youtube : John Gabilou)",,5,2
+155,"https://youtu.be/E43ydiMPp8E","2009-10-05","Calédonie Ensemble","John Gabilou chante son amour pour ce deuxieme Fenua, \"Taratoni\", qu'il a toujours connu depuis les années 60 à aujourd'hui (chaîne Youtube :  SAMIRICO67 MOANA NUI)",,5,2

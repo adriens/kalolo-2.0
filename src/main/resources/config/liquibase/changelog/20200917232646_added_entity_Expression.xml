@@ -53,11 +53,22 @@
     <changeSet id="20200917232646-1-data" author="jhipster" context="faker">
         <loadData
                   file="config/liquibase/fake-data/expression.csv"
-                  separator=";"
+                  separator=","
                   tableName="expression">
             <column name="id" type="numeric"/>
             <column name="text" type="string"/>
             <column name="points" type="numeric"/>
+            <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
+        </loadData>
+    </changeSet>
+
+    <changeSet id="20200917232646-1-relations-data" author="jhipster" context="faker">
+        <loadData
+            file="config/liquibase/fake-data/expression_tags.csv"
+            separator=","
+            tableName="expression_tags">
+            <column name="tags_id" type="numeric"/>
+            <column name="expression_id" type="numeric"/>
             <!-- jhipster-needle-liquibase-add-loadcolumn - JHipster (and/or extensions) can add load columns here -->
         </loadData>
     </changeSet>

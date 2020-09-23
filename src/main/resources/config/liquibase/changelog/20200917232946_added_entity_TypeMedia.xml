@@ -39,7 +39,7 @@
     <changeSet id="20200917232946-1-data" author="jhipster" context="faker">
         <loadData
                   file="config/liquibase/fake-data/type_media.csv"
-                  separator=";"
+                  separator=","
                   tableName="type_media">
             <column name="id" type="numeric"/>
             <column name="libelle" type="string"/>

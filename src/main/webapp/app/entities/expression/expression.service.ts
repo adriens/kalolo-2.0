@@ -32,6 +32,10 @@ export class ExpressionService {
     return this.http.get<IExpression[]>(this.resourceUrl, { params: options, observe: 'response' });
   }
 
+  findTags(libelle: string): Observable<EntityArrayResponseType> {
+    return this.http.get<IExpression[]>(`${this.resourceUrl}/tag/${libelle}`, { observe: 'response' });
+  }
+
   delete(id: number): Observable<HttpResponse<{}>> {
     return this.http.delete(`${this.resourceUrl}/${id}`, { observe: 'response' });
   }

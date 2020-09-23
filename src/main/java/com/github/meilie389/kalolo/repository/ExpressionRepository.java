@@ -26,4 +26,7 @@ public interface ExpressionRepository extends JpaRepository<Expression, Long> {
 
     @Query("select expression from Expression expression left join fetch expression.tags where expression.id =:id")
     Optional<Expression> findOneWithEagerRelationships(@Param("id") Long id);
+
+    @Query("select expression from Expression expression left join fetch expression.tags tag where tag.libelle =:libelle")
+    List<Expression> findAllWithRelationships(@Param("libelle") String libelle);
 }

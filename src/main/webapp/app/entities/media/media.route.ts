@@ -40,7 +40,6 @@ export const mediaRoute: Routes = [
     component: MediaComponent,
     data: {
       authorities: [Authority.USER],
-      defaultSort: 'id,asc',
       pageTitle: 'kaloloApp.media.home.title',
     },
     canActivate: [UserRouteAccessService],

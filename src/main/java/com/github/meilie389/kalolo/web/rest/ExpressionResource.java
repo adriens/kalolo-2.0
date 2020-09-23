@@ -5,16 +5,10 @@ import com.github.meilie389.kalolo.repository.ExpressionRepository;
 import com.github.meilie389.kalolo.web.rest.errors.BadRequestAlertException;
 
 import io.github.jhipster.web.util.HeaderUtil;
-import io.github.jhipster.web.util.PaginationUtil;
 import io.github.jhipster.web.util.ResponseUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.Pageable;
-import org.springframework.http.HttpHeaders;
-import org.springframework.http.HttpStatus;
-import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import org.springframework.http.ResponseEntity;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
@@ -88,21 +82,25 @@ public class ExpressionResource {
     /**
      * {@code GET  /expressions} : get all the expressions.
      *
-     * @param pageable the pagination information.
      * @param eagerload flag to eager load entities from relationships (This is applicable for many-to-many).
      * @return the {@link ResponseEntity} with status {@code 200 (OK)} and the list of expressions in body.
      */
     @GetMapping("/expressions")
-    public ResponseEntity<List<Expression>> getAllExpressions(Pageable pageable, @RequestParam(required = false, defaultValue = "false") boolean eagerload) {
-        log.debug("REST request to get a page of Expressions");
-        Page<Expression> page;
-        if (eagerload) {
-            page = expressionRepository.findAllWithEagerRelationships(pageable);
-        } else {
-            page = expressionRepository.findAll(pageable);
-        }
-        HttpHeaders headers = PaginationUtil.generatePaginationHttpHeaders(ServletUriComponentsBuilder.fromCurrentRequest(), page);
-        return ResponseEntity.ok().headers(headers).body(page.getContent());
+    public List<Expression> getAllExpressions(@RequestParam(required = false, defaultValue = "false") boolean eagerload) {
+        log.debug("REST request to get all Expressions");
+        return expressionRepository.findAllWithEagerRelationships();
+    }
+
+    /**
+     * {@code GET  /expressions/:id} : get the "id" expression.
+     *
+     * @param libelle the id of the expression to retrieve.
+     * @return the {@link ResponseEntity} with status {@code 200 (OK)} and with body the expression, or with status {@code 404 (Not Found)}.
+     */
+    @GetMapping("/expressions/tag/{libelle}")
+    public List<Expression> getExpressionsTag(@PathVariable String libelle) {
+        log.debug("REST request to get Expression : {}", libelle);
+        return expressionRepository.findAllWithRelationships(libelle);
     }
 
     /**

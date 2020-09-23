@@ -40,7 +40,6 @@ export const expressionRoute: Routes = [
     component: ExpressionComponent,
     data: {
       authorities: [Authority.USER],
-      defaultSort: 'id,asc',
       pageTitle: 'kaloloApp.expression.home.title',
     },
     canActivate: [UserRouteAccessService],

@@ -10,6 +10,8 @@
         </button>
     </h2>
 
+    <br><hr>
+
     <jhi-alert-error></jhi-alert-error>
 
     <jhi-alert></jhi-alert>
@@ -18,66 +20,69 @@
         <span jhiTranslate="kaloloApp.auteur.home.notFound">No auteurs found</span>
     </div>
 
-    <div class="table-responsive" id="entities" *ngIf="auteurs && auteurs.length > 0">
-        <table class="table table-striped" aria-describedby="page-heading">
-            <thead>
-                <tr jhiSort [(predicate)]="predicate" [(ascending)]="ascending" [callback]="loadPage.bind(this)">
-                    <th scope="col"  jhiSortBy="id"><span jhiTranslate="global.field.id">ID</span> <fa-icon icon="sort"></fa-icon></th>
-                    <th scope="col"  jhiSortBy="nom"><span jhiTranslate="kaloloApp.auteur.nom">Nom</span> <fa-icon icon="sort"></fa-icon></th>
-                    <th scope="col"  jhiSortBy="cleAuteur"><span jhiTranslate="kaloloApp.auteur.cleAuteur">Cle Auteur</span> <fa-icon icon="sort"></fa-icon></th>
-                    <th scope="col"  jhiSortBy="urlWeb"><span jhiTranslate="kaloloApp.auteur.urlWeb">Url Web</span> <fa-icon icon="sort"></fa-icon></th>
-                    <th scope="col"  jhiSortBy="urlFb"><span jhiTranslate="kaloloApp.auteur.urlFb">Url Fb</span> <fa-icon icon="sort"></fa-icon></th>
-                    <th scope="col"  jhiSortBy="urlInsta"><span jhiTranslate="kaloloApp.auteur.urlInsta">Url Insta</span> <fa-icon icon="sort"></fa-icon></th>
-                    <th scope="col"  jhiSortBy="urlYt"><span jhiTranslate="kaloloApp.auteur.urlYt">Url Yt</span> <fa-icon icon="sort"></fa-icon></th>
-                    <th scope="col"  jhiSortBy="urlTwit"><span jhiTranslate="kaloloApp.auteur.urlTwit">Url Twit</span> <fa-icon icon="sort"></fa-icon></th>
-                    <th scope="col"></th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr *ngFor="let auteur of auteurs ;trackBy: trackId">
-                    <td><a [routerLink]="['/auteur', auteur.id, 'view']">{{ auteur.id }}</a></td>
-                    <td>{{ auteur.nom }}</td>
-                    <td>{{ auteur.cleAuteur }}</td>
-                    <td>{{ auteur.urlWeb }}</td>
-                    <td>{{ auteur.urlFb }}</td>
-                    <td>{{ auteur.urlInsta }}</td>
-                    <td>{{ auteur.urlYt }}</td>
-                    <td>{{ auteur.urlTwit }}</td>
-                    <td class="text-right">
+    <br>
+
+    <ngb-accordion #acc="ngbAccordion" [closeOthers]="true" *ngIf="auteurs && auteurs.length > 0">
+        <ngb-panel id="{{ 'auteur-' + i }}" title="First panel" *ngFor="let auteur of auteurs; let i = index" title="">
+            <ng-template ngbPanelHeader>
+
+
+                    <div class="d-flex align-items-center justify-content-between">
+                        <button ngbPanelToggle class="d-flex btn btn-link container-fluid text-left pl-0" >
+                            <h5 class="m-0">{{ auteur.nom }}</h5>
+                            <p class="ml-2">({{ auteur.cleAuteur }})</p>
+                        </button>
                         <div class="btn-group">
-                            <button type="submit"
-                                    [routerLink]="['/auteur', auteur.id, 'view']"
-                                    class="btn btn-info btn-sm">
+                            <button ngbPanelToggle class="btn btn-info btn-sm">
                                 <fa-icon icon="eye"></fa-icon>
-                                <span class="d-none d-md-inline" jhiTranslate="entity.action.view">View</span>
+                                <span class="d-none d-md-inline"></span>
                             </button>
 
                             <button type="submit"
                                     [routerLink]="['/auteur', auteur.id, 'edit']"
-                                    class="btn btn-primary btn-sm">
+                                    class="btn btn-primary btn-sm ml-1">
                                 <fa-icon icon="pencil-alt"></fa-icon>
-                                <span class="d-none d-md-inline" jhiTranslate="entity.action.edit">Edit</span>
+                                <span class="d-none d-md-inline"></span>
                             </button>
 
                             <button type="submit" (click)="delete(auteur)"
-                                    class="btn btn-danger btn-sm">
+                                    class="btn btn-danger btn-sm ml-1">
                                 <fa-icon icon="times"></fa-icon>
-                                <span class="d-none d-md-inline" jhiTranslate="entity.action.delete">Delete</span>
+                                <span class="d-none d-md-inline"></span>
                             </button>
                         </div>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+                    </div>
 
-    <div *ngIf="auteurs && auteurs.length > 0">
-        <div class="row justify-content-center">
-            <jhi-item-count [page]="page" [total]="totalItems" [itemsPerPage]="itemsPerPage"></jhi-item-count>
-        </div>
+            </ng-template>
+            <ng-template ngbPanelContent>
+                <table class="table" aria-describedby="page-heading">
+                    <tr>
+                        <th scope="col" class="w-10"><span jhiTranslate="kaloloApp.auteur.cleAuteur">Cle Auteur</span></th>
+                        <td>{{ auteur.cleAuteur }}</td>
+                    </tr>
+                    <tr *ngIf="auteur.urlWeb">
+                        <th scope="col" class="w-10"><span jhiTranslate="kaloloApp.auteur.urlWeb">Url Web</span></th>
+                        <td><a href="{{ auteur.urlWeb }}">{{ auteur.urlWeb }}</a></td>
+                    </tr>
+                    <tr *ngIf="auteur.urlFb">
+                        <th scope="col" class="w-10"><span jhiTranslate="kaloloApp.auteur.urlFb">Url Fb</span></th>
+                        <td><a href="{{ auteur.urlFb }}">{{ auteur.urlFb }}</a></td>
+                    </tr>
+                    <tr *ngIf="auteur.urlInsta">
+                        <th scope="col" class="w-10"><span jhiTranslate="kaloloApp.auteur.urlInsta">Url Insta</span></th>
+                        <td><a href="{{ auteur.urlInsta }}">{{ auteur.urlInsta }}</a></td>
+                    </tr>
+                    <tr *ngIf="auteur.urlYt">
+                        <th scope="col" class="w-10"><span jhiTranslate="kaloloApp.auteur.urlYt">Url Yt</span></th>
+                        <td><a href="{{ auteur.urlYt }}">{{ auteur.urlYt }}</a></td>
+                    </tr>
+                    <tr *ngIf="auteur.urlTwit">
+                        <th scope="col" class="w-10"><span jhiTranslate="kaloloApp.auteur.urlTwit">Url Twit</span></th>
+                        <td><a href="{{ auteur.urlTwit }}">{{ auteur.urlTwit }}</a></td>
+                    </tr>
+                </table>
+            </ng-template>
+        </ngb-panel>
+    </ngb-accordion>
 
-        <div class="row justify-content-center">
-            <ngb-pagination [collectionSize]="totalItems" [(page)]="ngbPaginationPage" [pageSize]="itemsPerPage" [maxSize]="5" [rotate]="true" [boundaryLinks]="true" (pageChange)="loadPage($event)"></ngb-pagination>
-        </div>
-    </div>
 </div>
